@@ -51,6 +51,7 @@
   ],
   "devDependencies": {
     "@ant-design/icons": "4.8.0",
+    "@modern-js/plugin-tailwindcss": "^2.43.0",
     "@monaco-editor/react": "4.4.6",
     "@rsdoctor/graph": "workspace:*",
     "@rsdoctor/types": "workspace:*",
@@ -76,7 +77,9 @@
     "react-json-view": "1.21.3",
     "react-router-dom": "6.4.3",
     "socket.io-client": "4.6.1",
+    "tailwindcss": "^3.4.0",
     "terser": "^5.26.0",
+    "tw-elements-react": "1.0.0-alpha2",
     "typescript": "^5.2.2",
     "url-parse": "1.5.10"
   },

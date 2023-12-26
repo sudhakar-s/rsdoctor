@@ -5,6 +5,8 @@ import { Size } from '../../constants';
 import { BundleOverall, ProjectOverall, CompileOverall } from '../../components/Overall';
 import { CompileAlerts, BundleAlerts } from '../../components/Alerts';
 import { withServerAPI } from '../../components/Manifest';
+import "tw-elements-react/dist/css/tw-elements-react.min.css";
+import '../main.css'
 
 interface Props {
   project: SDK.ServerAPI.InferResponseType<SDK.ServerAPI.API.GetProjectInfo>;
